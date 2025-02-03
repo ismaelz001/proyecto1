@@ -7,6 +7,14 @@ const PORT = 3000; // cuidao con numero de puerto
 //al trabajar en github, 
 
 
+// login
+app.get("/", function(req, res) {
+    res.send("Hello Login");
+});
+
+
+
+
 // algo 
 app.get("/", function(req, res) {
     res.send("Hello World");
